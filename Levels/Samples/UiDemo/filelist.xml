@@ -1,0 +1,6 @@
+<download name="UiDemo" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="23597" md5="ca3d7d6002b353cbdc778a5d23f9b4f1"/>
+ </files>
+</download>

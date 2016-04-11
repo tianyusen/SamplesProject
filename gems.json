@@ -1,0 +1,78 @@
+{
+    "GemListFormatVersion" : 2,
+    "Gems" : 
+    [
+        {
+            "Path" : "Gems/AWS",
+            "Uuid" : "0945e21b7ae848ac80b4ec1f34c459cc",
+            "Version" : "0.1.0",
+            "_comment" : "AWS"
+        },
+        {
+            "Path" : "Gems/StartingPointInput",
+            "Uuid" : "09f4bedeee614358bc36788e77f97e51",
+            "Version" : "0.1.0",
+            "_comment" : "StartingPointInput"
+        },
+        {
+            "Path" : "Gems/CameraFramework",
+            "Uuid" : "54f2763fe191432fa681ce4a354eedf5",
+            "Version" : "0.1.0",
+            "_comment" : "CameraFramework"
+        },
+        {
+            "Path" : "Gems/InputManagementFramework",
+            "Uuid" : "59b1b2acc1974aae9f18faddcaddac5b",
+            "Version" : "0.1.0",
+            "_comment" : "InputManagementFramework"
+        },
+        {
+            "Path" : "Gems/UiBasics",
+            "Uuid" : "6bb61c9e547043f0afc5019d6d460b78",
+            "Version" : "0.1.0",
+            "_comment" : "UiBasics"
+        },
+        {
+            "Path" : "Gems/StartingPointMovement",
+            "Uuid" : "73d8779dc28a4123b7c9ed76217464af",
+            "Version" : "0.1.0",
+            "_comment" : "StartingPointMovement"
+        },
+        {
+            "Path" : "Gems/StartingPointCamera",
+            "Uuid" : "834070b9537d44df83559e2045c3859f",
+            "Version" : "0.1.0",
+            "_comment" : "StartingPointCamera"
+        },
+        {
+            "Path" : "Gems/PhysicsEntities",
+            "Uuid" : "99ea531451fc4f64a5a9fe8f385e8a76",
+            "Version" : "0.1.0",
+            "_comment" : "PhysicsEntities"
+        },
+        {
+            "Path" : "Gems/UserLoginDefault",
+            "Uuid" : "c9c25313197f489a8e9e8e6037fc62eb",
+            "Version" : "0.1.0",
+            "_comment" : "UserLoginDefault"
+        },
+        {
+            "Path" : "Gems/UiDemo",
+            "Uuid" : "f90e86a4975549aa9809dc4ebcb3bffb",
+            "Version" : "0.1.0",
+            "_comment" : "UiDemo"
+        },
+        {
+            "Path" : "Gems/Substance",
+            "Uuid" : "a2f08ba9713f485a8485d7588e5b120f",
+            "Version" : "1.0.0",
+            "_comment" : "Substance"
+        },
+        {
+            "Path": "Gems/Gestures",
+            "Uuid": "6056556b6088413984309c4a413593ad",
+            "Version": "0.1.0",
+            "_comment": "Gestures"
+        }
+    ]
+}
