@@ -18,6 +18,8 @@
     <action name="moveforward" onHeld="1" onPress="1" onRelease="1" retriggerable="1" keyboard="w"/>
     <action name="moveback" onPress="1" onRelease="1" retriggerable="1" keyboard="s"/>
 	<action name="jump" keyboard="space" xboxpad="xi_a" onPress="1" />
+	<action name="boost" keyboard="lshift" onPress="1" onRelease="1" xboxpad="xi_y" ps4pad="pad_triangle" />
+    <action name="use" keyboard="e" onPress="1" xboxpad="xi_x" ps4pad="pad_square" />
     <action name="rotateyaw" keyboard="maxis_x" />
     <action name="rotatepitch" keyboard="maxis_y" />
 	<action name="xi_movey" xboxpad="xi_thumbly"/>

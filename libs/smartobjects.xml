@@ -1,0 +1,11 @@
+<SmartObjectsLibrary>
+ <SmartObject iTemplateId="7" sName="DeWardColor" sFolder="" sDescription="" sUserClass="Minions" sUserState="-Busy" sUserHelper="" sObjectClass="Player" sObjectState="-Busy" sObjectHelper="" iMaxAlertness="0" bEnabled="0" sEvent="" iRuleType="0" sEntranceHelper="" sExitHelper="" fMinDelay="0" fMaxDelay="2" fMemory="0" fDistanceFrom="10" fDistanceLimit="200" fOrientationLimit="360" bHorizLimitOnly="0" fOrientToTargetLimit="360" fProximityFactor="1" fOrientationFactor="0" fRandomnessFactor="0.5" fVisibilityFactor="0" fLookAtOnPerc="0.40000001" sObjectPreActionState="-Busy" sUserPreActionState="NearPlayer-Busy" sAction="miniongoawayplayer.xml" eActionType="1" sObjectPostActionState="-Busy" sUserPostActionState="AwayFromPlayer-Busy" fApproachSpeed="0" iApproachStance="3" sAnimationHelper="" sApproachHelper="" fStartWidth="0" fStartDirectionTolerance="0" fStartArcAngle="0"/>
+ <SmartObject iTemplateId="3" sName="WardColor" sFolder="" sDescription="" sUserClass="Minions" sUserState="" sUserHelper="" sObjectClass="" sObjectState="" sObjectHelper="" iMaxAlertness="2" bEnabled="0" sEvent="" iRuleType="0" sEntranceHelper="" sExitHelper="" fMinDelay="1" fMaxDelay="2" fMemory="0" fDistanceFrom="0" fDistanceLimit="10" fOrientationLimit="360" bHorizLimitOnly="0" fOrientToTargetLimit="360" fProximityFactor="0" fOrientationFactor="0" fRandomnessFactor="1" fVisibilityFactor="0" fLookAtOnPerc="0" sObjectPreActionState="" sUserPreActionState="-Busy" sAction="" eActionType="1" sObjectPostActionState="" sUserPostActionState="-Busy" fApproachSpeed="0" iApproachStance="3" sAnimationHelper="" sApproachHelper="" fStartWidth="0" fStartDirectionTolerance="0" fStartArcAngle="0"/>
+ <Class name="AwayFromPlayer" description="" location="" template=""/>
+ <Class name="Minions" description="" location="" template=""/>
+ <Class name="NearPlayer" description="" location="" template=""/>
+ <Class name="Player" description="" location="" template=""/>
+ <State name="AwayFromPlayer" description="" location=""/>
+ <State name="Busy" description="" location=""/>
+ <State name="NearPlayer" description="" location=""/>
+</SmartObjectsLibrary>

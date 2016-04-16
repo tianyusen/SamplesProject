@@ -4,12 +4,6 @@
    <Object Type="Camera" Layer="Main" LayerGUID="{A88A6761-F80A-4B67-8383-63E53E12A57D}" Id="{10498B71-D38C-4403-9415-95A4A7DE9D7D}" Name="Camera Controller Rig" HideOrder="0" Parent="{EA1129AB-29B5-40F5-AD52-E608DF832A3B}" Pos="0,-5.7960205,1.3320923" FloorNumber="-1" Rotate="0.99619472,-0.087155759,8.5359e-009,-3.0013602e-008" ColorRGB="16776960" FOV="1.0472" NearZ="0.2" FarZ="1024" EntityClass="CameraSource">
     <ShakeParams AmplitudeA="1,1,1" AmplitudeAMult="0" FrequencyA="1,1,1" FrequencyAMult="0" NoiseAAmpMult="0" NoiseAFreqMult="0" TimeOffsetA="0" AmplitudeB="1,1,1" AmplitudeBMult="0" FrequencyB="1,1,1" FrequencyBMult="0" NoiseBAmpMult="0" NoiseBFreqMult="0" TimeOffsetB="0" CameraShakeSeed="0"/>
    </Object>
-   <Object Type="GeomEntity" Layer="Main" LayerGUID="{A88A6761-F80A-4B67-8383-63E53E12A57D}" Id="{4C5010C0-C1A9-4D11-940F-7744F4FC3143}" Name="robot_body" HideOrder="0" Pos="1.0239868,3.8677979,2.0925255" FloorNumber="-1" Rotate="-4.3711388e-008,0,0,1" ColorRGB="65535" MatLayersMask="0" Geometry="Objects/CharacterModels/R0-B/robot_body.cgf" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistanceMultiplier="1" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="GeomEntity">
-    <Properties esFaction="">
-     <Health bInvulnerable="0" MaxHealth="500" bOnlyEnemyFire="1"/>
-     <RenderProxyOptions bAnimateOffScreenShadow="0"/>
-    </Properties>
-   </Object>
    <Object Type="CameraTarget" Layer="Main" LayerGUID="{A88A6761-F80A-4B67-8383-63E53E12A57D}" Id="{A90467D9-9DEA-42D1-949C-4DCF68711DE3}" Name="Controller_Ref_Box_Move" HideOrder="0" Pos="1.0239868,3.8677979,3.0925255" FloorNumber="-1" Rotate="0.70710683,0,0,0.70710677" ColorRGB="16776960" EntityClass="CameraTarget"/>
    <Object Type="CameraTarget" Layer="Main" LayerGUID="{AF14C377-7F58-4BF8-8E5D-5A28E11D4E41}" Id="{8AF897E0-75A9-4B0E-85FC-41CDF7287F17}" Name="Head_Tilt_Parent" HideOrder="0" Parent="{A90467D9-9DEA-42D1-949C-4DCF68711DE3}" Pos="0,0,-1" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="16776960" EntityClass="CameraTarget"/>
    <Object Type="CameraTarget" Layer="Main" LayerGUID="{AF14C377-7F58-4BF8-8E5D-5A28E11D4E41}" Id="{EA1129AB-29B5-40F5-AD52-E608DF832A3B}" Name="Controller_Ref_Box_Pitch" HideOrder="0" Parent="{A90467D9-9DEA-42D1-949C-4DCF68711DE3}" Pos="-0.00030517578,0.00036621094,0" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="16776960" EntityClass="CameraTarget"/>
@@ -91,6 +85,12 @@
       <ForeignData bMovingPlatform="0"/>
       <Simulation damping="1" bFixedDamping="0" max_time_step="0.01" sleep_speed="0.01" bUseSimpleSolver="0"/>
      </Physics>
+    </Properties>
+   </Object>
+   <Object Type="GeomEntity" Layer="Main" LayerGUID="{C6B26477-AF27-417A-A4F3-4F679521C39D}" Id="{4C5010C0-C1A9-4D11-940F-7744F4FC3143}" Name="robot_body" HideOrder="0" Pos="1.0239868,3.8677979,2.0925255" FloorNumber="-1" Rotate="-4.3711388e-008,0,0,1" ColorRGB="65535" Geometry="Objects/CharacterModels/R0-B/robot_body.cgf" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistanceMultiplier="1" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" ObstructionMultiplier="1" EntityClass="GeomEntity">
+    <Properties esFaction="">
+     <Health bInvulnerable="0" MaxHealth="500" bOnlyEnemyFire="1"/>
+     <RenderProxyOptions bAnimateOffScreenShadow="0"/>
     </Properties>
    </Object>
   </Objects>
