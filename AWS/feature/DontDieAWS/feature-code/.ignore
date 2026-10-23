@@ -1,6 +1,0 @@
-*.njsproj
-../*/.ntvs_analysis.dat
-../*/_testdriver.js
-../*/_sampleEvent.js
-test-util
-CloudCanvas

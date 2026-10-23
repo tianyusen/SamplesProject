@@ -1,7 +1,0 @@
-﻿{
-    "username": "lambdalarry",
-
-    "commands": [ 
-        "startGame", "getDailyGift", "getMessageOfTheDay"
-    ]
-}
